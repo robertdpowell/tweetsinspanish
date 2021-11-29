@@ -1,0 +1,29 @@
+# Site settings
+title:
+email:
+author:
+description:
+url:
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+# Social icons
+show_social_icons: true
+twitter_username: tweetsinwelsh
+
+# Collections 
+collections:
+  blog:
+    output: true
+
+
+
+
+paginate: 6
+paginate_path: "/page:num/"
+
+plugins_dir:
+- jekyll-paginate
